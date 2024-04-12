@@ -7,6 +7,61 @@
   <title>Site sobre Autismo</title>
 </head>
 <body>
+<style>/* Reset de estilos */  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: linear-gradient (to bottom,black,white);
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #050101;
+    padding: 1rem;
+    text-align: center;
+  }
+    
+  footer {
+    background-color: #ffffff;
+    color: #000000;/* */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-right: 5px solid #5e53ff; /* Adiciona uma borda à direita de cada item */
+}
+
+header nav ul li a:hover {
+    color: #080355; /* Muda a cor ao passar o mouse */  
+    background-color: #ffffff;
+}
+
+header nav ul li a {
+    color: #5e53ff;
+    text-decoration: none;
+    font-size: 22px; /* Aumenta o tamanho da fonte */
+    transition: color 0.3s; /* Adiciona transição para a mudança de cor */
+}
+.logo {
+    text-align: center;
+    width: 20%;
+    padding: 0 0 0 20px;
+    margin-right: 50px;
+}
+
+.imagem {
+    text-align: center;
+    height: 30%;
+  width: 62%;
+  padding: 0 0 0 38%;
+  margin-right: 59%;
+  border-radius: 50px;
+}
+</style>
+
   <header>
     <h1></h1><img src="autismo.jpg" class="logo"></h1>
     <nav>
